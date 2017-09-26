@@ -2,14 +2,14 @@
 
 becomeをタスク毎に分けて実行してみた結果
 
-* local_action で become: true
-  * playbook実行ユーザ
 * local_action で become: false
-  * root
+  * playbook実行ユーザ
+* local_action で become: true
+  * local root
 * remote で become: true
-  * ansible_ssh_user
-* remote で become: false
   * remote site root
+* remote で become: false
+  * ansible_ssh_user
 
 ```yaml
 ---
