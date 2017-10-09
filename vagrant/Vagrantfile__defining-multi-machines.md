@@ -1,6 +1,7 @@
 bento/centos-7.2 imageを使って複数のVMを立ち上げるVagrantfile例
 
 ```ruby
+
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
@@ -15,6 +16,7 @@ Vagrant.configure("2") do |config|
     client.vm.network "private_network", ip: "192.168.33.11"
   end
 end
+
 ```
 
 今のままの設定だと nmcli で見たときに新たに作成された
