@@ -1,6 +1,6 @@
 bento/centos-7.2 imageを使って複数のVMを立ち上げるVagrantfile例
 
-```ruby
+```
 
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
